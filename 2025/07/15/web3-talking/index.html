@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Hexo Theme Redefine">
+    
+    <meta name="author" content="Luo Zhixin">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="https://luoluoter.github.io/2025/07/15/web3-talking/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+    
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/redefine-favicon.svg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/redefine-favicon.svg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/redefine-favicon.svg">
+    <!--- Page Info-->
+    
+    <title>
+        
+            Web3.0漫谈：一些基本概念的理解（一） | Logs of My Mind
+        
+    </title>
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+
+    <!--- Inject Part-->
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/css/build/tailwind.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
+
+    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
+
+    <!--- Font Part-->
+    
+    
+    
+    
+    
+    
+
+    <script id="hexo-configurations">
+    window.config = {"hostname":"luoluoter.github.io","root":"/","language":"en","path":"search.json"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"delete_mask":false,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"github","dark":"vs2015"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_nc_sa"},"lazyload":true,"pangu_js":false,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null,"default_mode":"dark"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":{"enable":false,"custom_message":null},"open_graph":{"enable":false,"image":"/images/redefine-og.webp","description":"A B C D E F"},"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/light.webp","dark":"/images/dark.webp"},"title":"Logs by A INTJ","subtitle":{"text":["See beyond your sight. Build as you grow."],"hitokoto":{"enable":false,"show_author":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":true,"style":"default","links":{"github":"https://github.com/luoluoter","instagram":null,"zhihu":null,"twitter":null,"email":"luozhixin2021@gmail.com"},"qrs":{"weixin":null}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":false,"version":"11.4.1"}},"version":"2.8.2","navbar":{"auto_hide":true,"color":{"left":"#f78736","right":"#367df7","transparency":35},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"Categories":{"icon":"fa-solid fa-folder","path":"/categories/"},"Tags":{"icon":"fa-solid fa-tags","path":"/tags/"},"masonry":{"icon":"fa-solid fa-image","path":"/masonry/"}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":"Blog of a INTJ Engineer","show_on_mobile":true,"links":{"Tags":{"path":"/tags","icon":"fa-regular fa-tags"}}},"article_date_format":"auto","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2025/6/28 00:00:00"};
+    window.lang_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+    window.data = {"masonry":true};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+
+<body>
+	<div class="progress-bar-container">
+	
+
+	
+	<span class="pjax-progress-bar"></span>
+	<!--        <span class="swup-progress-icon">-->
+	<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+	<!--        </span>-->
+	
+</div>
+
+<main class="page-container" id="swup">
+
+	
+
+	<div class="main-content-container flex flex-col justify-between min-h-dvh">
+		<div class="main-content-header">
+			<header class="navbar-container px-6 md:px-12">
+    <div class="navbar-content transition-navbar ">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                
+                Logs of My Mind
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/"
+                                        >
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    HOME
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/categories/"
+                                        >
+                                    <i class="fa-solid fa-folder fa-fw"></i>
+                                    CATEGORIES
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/tags/"
+                                        >
+                                    <i class="fa-solid fa-tags fa-fw"></i>
+                                    TAGS
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/masonry/"
+                                        >
+                                    <i class="fa-solid fa-image fa-fw"></i>
+                                    MASONRY
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/"
+                        >
+                            <span>
+                                HOME
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/categories/"
+                        >
+                            <span>
+                                CATEGORIES
+                            </span>
+                            
+                                <i class="fa-solid fa-folder fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/tags/"
+                        >
+                            <span>
+                                TAGS
+                            </span>
+                            
+                                <i class="fa-solid fa-tags fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/masonry/"
+                        >
+                            <span>
+                                MASONRY
+                            </span>
+                            
+                                <i class="fa-solid fa-image fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">49</div>
+        <div class="label text-third-text-color text-sm">Tags</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">12</div>
+        <div class="label text-third-text-color text-sm">Categories</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">16</div>
+        <div class="label text-third-text-color text-sm">Posts</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+		</div>
+
+		<div class="main-content-body transition-fade-up">
+			
+
+			<div class="main-content">
+				<div class="post-page-container flex relative justify-between box-border w-full h-full">
+	<div class="article-content-container">
+
+		<div class="article-title relative w-full">
+			
+			<div class="w-full flex items-center pt-6 justify-start">
+				<h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">Web3.0漫谈：一些基本概念的理解（一）</h1>
+			</div>
+			
+		</div>
+
+		
+		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+			<div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+				<img src="https://avatars.githubusercontent.com/u/28613432?s=192&v=4">
+			</div>
+			<div class="info flex flex-col justify-between">
+				<div class="author flex items-center">
+					<span class="name text-default-text-color text-lg font-semibold">Luo Zhixin</span>
+					
+					<span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">Lv3</span>
+					
+				</div>
+				<div class="meta-info">
+					<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2025-07-15 23:17:14</span>
+        <span class="mobile">2025-07-15 23:17:14</span>
+        <span class="hover-info">Created</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2025-07-15 23:22:51</span>
+            <span class="mobile">2025-07-15 23:22:51</span>
+            <span class="hover-info">Updated</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/%E6%8A%80%E6%9C%AF%E6%80%9D%E8%80%83/">技术思考</a>&nbsp;
+                        </li>
+                    
+                    
+                
+                    
+                        
+                            <li>></li>
+                        
+                        <li>
+                            <a href="/categories/%E6%8A%80%E6%9C%AF%E6%80%9D%E8%80%83/Web3/">Web3</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/Prompt-Engineering/">Prompt Engineering</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E6%80%9D%E7%BB%B4%E6%A1%86%E6%9E%B6/">思维框架</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Web3-0/">Web3.0</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/">区块链</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96/">去中心化</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>1.8k Words</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>6 Mins</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+			<p>在 Web3 及区块链技术的领域里，很多概念和技术架构的实现不仅是为了优化传统体系的痛点，更是为了<strong>构建一种新的信任机制</strong>。</p>
+<p>这些概念的背后，蕴含着对<strong>去中心化</strong>、<strong>信任</strong>、<strong>效率</strong>等核心价值的深刻思考。</p>
+<p>我在这篇文章中，将从以下几个核心技术概念入手，结合实际场景，简单探讨这些概念如何影响 Web3 的架构与应用。</p>
+<hr>
+<h3 id="一、去中心化的真正意义：从信任重构到实际应用"><a href="#一、去中心化的真正意义：从信任重构到实际应用" class="headerlink" title="一、去中心化的真正意义：从信任重构到实际应用"></a><strong>一、去中心化的真正意义：从信任重构到实际应用</strong></h3><p>区块链的核心价值不仅仅在于 <strong>降低成本</strong>，而是在于 <strong>去中心化</strong>，即去掉传统金融与系统中的中介机构。传统的金融、社交和信息系统中，都有一个中心化的信任节点，国家、银行、平台等作为核心的权威机构来维护信任。但区块链系统并非要完全<strong>消除</strong>这些中心化的力量，而是将信任机制从一个单一的机构分散到所有参与者中，<strong>通过代码和共识机制重构信任</strong>。</p>
+<ul>
+<li><strong>信任的分布</strong>：在 Web3 的世界里，信任不再依赖单一实体，而是依赖于区块链上的 <strong>去中心化共识机制</strong>。通过加密技术和去中心化网络，<strong>每个节点都在验证和记录信息</strong>，确保数据的不可篡改和透明。</li>
+<li><strong>区块链的信任重构</strong>：虽然区块链不再依赖单一机构，但它仍然依赖于<strong>去中心化的共识机制</strong>。这种机制确保了<strong>没有单一节点能够掌控全部信息</strong>，并通过 <strong>分布式验证</strong> 来确保系统的安全性和可靠性。</li>
+</ul>
+<h3 id="二、RWA-与智能合约的结合：数字化资产与去中介化"><a href="#二、RWA-与智能合约的结合：数字化资产与去中介化" class="headerlink" title="二、RWA 与智能合约的结合：数字化资产与去中介化"></a><strong>二、RWA 与智能合约的结合：数字化资产与去中介化</strong></h3><p><strong>RWA（Real World Asset）</strong> 作为区块链领域的一个关键应用场景，它试图将<strong>真实世界的资产</strong>（如房地产、债务、黄金等）映射到区块链上，利用智能合约进行流转、管理与交易。</p>
+<ul>
+<li><strong>数字化资产的价值</strong>：通过区块链的智能合约，可以在无需第三方中介的情况下对资产进行<strong>自动化管理</strong>和<strong>分配</strong>。比如，通过 NFT 或 ERC20 代币的形式，可以将不动产、黄金等实体资产在区块链上进行流通和交易。</li>
+<li><strong>智能合约的去中介化</strong>：智能合约通过 <strong>代码规则代替人工操作</strong>，使资产的交易和管理不再依赖银行、政府等传统中介机构，减少了交易过程中的摩擦与成本。</li>
+</ul>
+<p>然而，<strong>RWA</strong> 的实现并非没有挑战，最重要的一个问题是如何<strong>确保资产背书的可信度</strong>，即如何确保链上的数字资产与实际世界中的资产完全对应。</p>
+<h3 id="三、DAO：去中心化自治组织的管理与治理"><a href="#三、DAO：去中心化自治组织的管理与治理" class="headerlink" title="三、DAO：去中心化自治组织的管理与治理"></a><strong>三、DAO：去中心化自治组织的管理与治理</strong></h3><p>DAO（去中心化自治组织）作为 Web3 的核心理念之一，它不仅仅是一种组织架构，还是一种新的治理模式。DAO 在区块链上通过 <strong>智能合约</strong> 自动执行规则，使得组织决策可以通过去中心化的方式达成。</p>
+<ul>
+<li><strong>DAO 的核心优势</strong>：DAO 可以通过 <strong>智能合约实现自治</strong>，无论是资金管理、投票治理还是规则执行，都是通过代码和协议自动完成，减少了人工干预的风险和成本。</li>
+<li><strong>去中心化治理的挑战</strong>：DAO 体系的挑战在于如何避免治理中的 <strong>集体决策僵局</strong> 和 <strong>恶意攻击</strong>。如何保证有效的治理机制、如何平衡权力分配、如何应对技术漏洞和法律合规性，都是 DAO 面临的重要问题。</li>
+</ul>
+<hr>
+<h3 id="四、Solana-vs-Ethereum：性能与去中心化的权衡"><a href="#四、Solana-vs-Ethereum：性能与去中心化的权衡" class="headerlink" title="四、Solana vs. Ethereum：性能与去中心化的权衡"></a><strong>四、Solana vs. Ethereum：性能与去中心化的权衡</strong></h3><p>在多链生态中，Solana 与 Ethereum 的 <strong>性能差异</strong> 也是一个非常具有代表性的话题。<strong>Ethereum</strong> 以其 <strong>高度去中心化</strong> 和 <strong>安全性</strong> 被广泛认可，但其 <strong>吞吐量限制</strong> 使得许多应用场景无法承载。</p>
+<ul>
+<li><strong>Ethereum</strong>：作为最成熟的公链，<strong>Ethereum</strong> 采用 <strong>Proof of Stake</strong> 机制，保证了高度的安全性和去中心化，但 <strong>交易吞吐量和成本较高</strong>。</li>
+<li><strong>Solana</strong>：与 Ethereum 相比，Solana 以 <strong>高吞吐量和低延迟</strong> 著称，采用 <strong>Proof of History（PoH）</strong> 共识机制，极大提升了交易速度和成本效率。然而，这也带来了相对较低的 <strong>去中心化程度</strong>，并且网络中的 <strong>节点更少，节点验证的中心化风险较高</strong>。</li>
+</ul>
+<p>这个对比提醒我们，<strong>去中心化与性能之间的平衡</strong> 是区块链设计中必须解决的根本问题。</p>
+<hr>
+<h3 id="五、Layer-2：扩展与多层设计的可能性"><a href="#五、Layer-2：扩展与多层设计的可能性" class="headerlink" title="五、Layer 2：扩展与多层设计的可能性"></a><strong>五、Layer 2：扩展与多层设计的可能性</strong></h3><p>Layer 2 技术的<strong>核心目标</strong>是将 <strong>计算和存储</strong> 从主链（L1）转移到副链或其他外部系统中，从而<strong>减轻主链的负担</strong>，提升交易速度，降低交易费用。</p>
+<ul>
+<li><strong>Layer 2 的优势</strong>：通过 Rollup、State Channels 等技术，Layer 2 能够在不牺牲去中心化的前提下，<strong>显著提升区块链的处理能力</strong>。</li>
+<li><strong>Layer 2 的局限性</strong>：虽然 Layer 2 大大提升了性能，但它仍然依赖 <strong>L1 的安全性</strong> 和 <strong>数据可用性</strong>。此外，L2 的<strong>去中心化程度</strong>往往低于 L1，存在一定的 <strong>操作风险和攻击面</strong>。</li>
+</ul>
+<p>通过 <strong>多层次设计（L2、L3、L4）</strong>，区块链可以在保证去中心化和安全性的前提下，实现 <strong>更高效的分布式计算和数据存储</strong>。</p>
+<hr>
+<h3 id="六、算力外包与-Rollup-的本质："><a href="#六、算力外包与-Rollup-的本质：" class="headerlink" title="六、算力外包与 Rollup 的本质："></a><strong>六、算力外包与 Rollup 的本质：</strong></h3><p><strong>Rollup</strong> 是一种将大部分计算和存储从主链（L1）迁移到副链的技术。通过将 <strong>数据打包</strong>，并在链上提交<strong>状态根</strong>，Rollup 能有效降低成本和提高性能。</p>
+<ul>
+<li><strong>算力外包的本质</strong>：Rollup 本质上是一种 <strong>算力外包</strong> 的技术，它通过 <strong>将计算任务从主链转移到 L2</strong>，并仅保留必要的状态证明，来 <strong>减轻主链的负担</strong>。这种方式使得 <strong>L2 可以灵活扩展</strong>，但同时也带来 <strong>数据可用性和安全性</strong> 的挑战。</li>
+</ul>
+<p>Rollup 和 ZKProof 提供了 <strong>更高效的去中心化计算</strong>，但它们的<strong>成本问题</strong>（如交易延迟、验证时间）往往被忽视。特别是 <strong>ZK-SNARK</strong> 在提供高度安全性和隐私性的同时，其计算成本也远远超过了其他方案。</p>
+<hr>
+<h2 id="结语：去中心化与信任的未来"><a href="#结语：去中心化与信任的未来" class="headerlink" title="结语：去中心化与信任的未来"></a>结语：去中心化与信任的未来</h2><p>Web3 及区块链技术正在快速发展，其最深刻的价值不仅仅是 <strong>技术的突破</strong>，而是它所带来的 <strong>信任结构的重构</strong>。通过去中心化的协议和智能合约，Web3 提供了一个全新的<strong>无需中介的信任系统</strong>。</p>
+<p>尽管目前 Web3 存在许多技术和实践上的挑战，但它依然为我们展示了一条未来的可能路径：<strong>通过去中心化、透明和可验证的机制，构建一个更加公平、高效的社会系统</strong>。</p>
+<hr>
+<p><em>作者：罗植馨</em><br><em>GitHub: <a class="link"   target="_blank" rel="noopener" href="https://github.com/luoluoter" >github.com&#x2F;luoluoter<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a></em></p>
+
+		</div>
+
+		
+		<div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+			<div class="article-copyright-info-container">
+    <ul>
+        <li><strong>Title:</strong> Web3.0漫谈：一些基本概念的理解（一）</li>
+        <li><strong>Author:</strong> Luo Zhixin</li>
+        <li><strong>Created at
+                :</strong> 2025-07-15 23:17:14</li>
+        
+            <li>
+                <strong>Updated at
+                    :</strong> 2025-07-15 23:22:51
+            </li>
+        
+        <li>
+            <strong>Link:</strong> https://luoluoter.github.io/2025/07/15/web3-talking/
+        </li>
+        <li>
+            <strong>
+                License:
+            </strong>
+            
+
+            
+                This work is licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a>.
+            
+        </li>
+    </ul>
+</div>
+
+		</div>
+		
+
+		
+		<ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/Prompt-Engineering/">#Prompt Engineering</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E6%80%9D%E7%BB%B4%E6%A1%86%E6%9E%B6/">#思维框架</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/Web3-0/">#Web3.0</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/">#区块链</a>&nbsp;
+			</li>
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96/">#去中心化</a>&nbsp;
+			</li>
+			
+		</ul>
+		
+
+		
+
+		
+		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/2025/07/11/model-is-formulas-and-contants/">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">模型的本质：函数、常量与结构的工程化</span>
+						<span class="post-nav-item">Next posts</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+		</div>
+		
+
+
+		
+	</div>
+
+	
+	<div class="toc-content-container">
+		<div class="post-toc-wrap">
+	<div class="post-toc">
+		<div class="toc-title">On this page</div>
+		<div class="page-title">Web3.0漫谈：一些基本概念的理解（一）</div>
+		<ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E7%9A%84%E7%9C%9F%E6%AD%A3%E6%84%8F%E4%B9%89%EF%BC%9A%E4%BB%8E%E4%BF%A1%E4%BB%BB%E9%87%8D%E6%9E%84%E5%88%B0%E5%AE%9E%E9%99%85%E5%BA%94%E7%94%A8"><span class="nav-text">一、去中心化的真正意义：从信任重构到实际应用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%8C%E3%80%81RWA-%E4%B8%8E%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E7%9A%84%E7%BB%93%E5%90%88%EF%BC%9A%E6%95%B0%E5%AD%97%E5%8C%96%E8%B5%84%E4%BA%A7%E4%B8%8E%E5%8E%BB%E4%B8%AD%E4%BB%8B%E5%8C%96"><span class="nav-text">二、RWA 与智能合约的结合：数字化资产与去中介化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E3%80%81DAO%EF%BC%9A%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E8%87%AA%E6%B2%BB%E7%BB%84%E7%BB%87%E7%9A%84%E7%AE%A1%E7%90%86%E4%B8%8E%E6%B2%BB%E7%90%86"><span class="nav-text">三、DAO：去中心化自治组织的管理与治理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9B%9B%E3%80%81Solana-vs-Ethereum%EF%BC%9A%E6%80%A7%E8%83%BD%E4%B8%8E%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E7%9A%84%E6%9D%83%E8%A1%A1"><span class="nav-text">四、Solana vs. Ethereum：性能与去中心化的权衡</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%94%E3%80%81Layer-2%EF%BC%9A%E6%89%A9%E5%B1%95%E4%B8%8E%E5%A4%9A%E5%B1%82%E8%AE%BE%E8%AE%A1%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%A7"><span class="nav-text">五、Layer 2：扩展与多层设计的可能性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%AD%E3%80%81%E7%AE%97%E5%8A%9B%E5%A4%96%E5%8C%85%E4%B8%8E-Rollup-%E7%9A%84%E6%9C%AC%E8%B4%A8%EF%BC%9A"><span class="nav-text">六、算力外包与 Rollup 的本质：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%93%E8%AF%AD%EF%BC%9A%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E4%B8%8E%E4%BF%A1%E4%BB%BB%E7%9A%84%E6%9C%AA%E6%9D%A5"><span class="nav-text">结语：去中心化与信任的未来</span></a>
+
+	</div>
+</div>
+	</div>
+	
+</div>
+			</div>
+
+			
+		</div>
+
+		<div class="main-content-footer">
+			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+            <div class="customize-info my-1">「理性是为感性服务的工具, 唯物的世界与唯心的自我」</div>
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2025</span>
+              -
+            
+            2025&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">Luo Zhixin</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        16 posts in total
+                    </span>
+                    
+                        <span>
+                            19.2k words in total
+                        </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">VISITOR COUNT</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">TOTAL PAGE VIEWS</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">POWERED BY <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a></span>
+            <span class="text-sm lg:block">THEME&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.8.2</a></span>
+        </div>
+        
+        
+            <div>
+                Blog up for <span class="odometer" id="runtime_days" ></span> days <span class="odometer" id="runtime_hours"></span> hrs <span class="odometer" id="runtime_minutes"></span> Min <span class="odometer" id="runtime_seconds"></span> Sec
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+		</div>
+	</div>
+
+	
+	<div class="post-tools">
+		<div class="post-tools-container">
+	<ul class="article-tools-list">
+		<!-- TOC aside toggle -->
+		
+		<li class="right-bottom-tools page-aside-toggle">
+			<i class="fa-regular fa-outdent"></i>
+		</li>
+		
+
+		<!-- go comment -->
+		
+	</ul>
+</div>
+	</div>
+	
+
+	<div class="right-side-tools-container">
+		<div class="side-tools-container">
+	<ul class="hidden-tools-list">
+		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-plus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-minus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+			<i class="fa-regular fa-moon"></i>
+		</li>
+
+		<!-- rss -->
+		
+
+		
+
+		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+			<i class="fa-regular fa-arrow-down"></i>
+		</li>
+	</ul>
+
+	<ul class="visible-tools-list">
+		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+			<i class="fa-regular fa-cog fa-spin"></i>
+		</li>
+		
+		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+			<i class="arrow-up fas fa-arrow-up"></i>
+			<span class="percent"></span>
+		</li>
+		
+		
+	</ul>
+</div>
+	</div>
+
+	<div class="image-viewer-container">
+	<img src="">
+</div>
+
+	
+	<div class="search-pop-overlay">
+	<div class="popup search-popup">
+		<div class="search-header">
+			<span class="search-input-field-pre">
+				<i class="fa-solid fa-keyboard"></i>
+			</span>
+			<div class="search-input-container">
+				<input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="Search..." spellcheck="false" type="search" class="search-input">
+			</div>
+			<span class="popup-btn-close">
+				<i class="fa-solid fa-times"></i>
+			</span>
+		</div>
+		<div id="search-result">
+			<div id="no-result">
+				<i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+</main>
+
+
+
+<script src="/js/build/libs/Swup.min.js"></script>
+
+<script src="/js/build/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/build/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>
+    const swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+</script>
+
+
+
+
+	
+<script src="/js/build/tools/imageViewer.js" type="module"></script>
+
+<script src="/js/build/utils.js" type="module"></script>
+
+<script src="/js/build/main.js" type="module"></script>
+
+<script src="/js/build/layouts/navbarShrink.js" type="module"></script>
+
+<script src="/js/build/tools/scrollTopBottom.js" type="module"></script>
+
+<script src="/js/build/tools/lightDarkSwitch.js" type="module"></script>
+
+<script src="/js/build/layouts/categoryList.js" type="module"></script>
+
+
+
+    
+<script src="/js/build/tools/localSearch.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/tools/codeBlock.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/layouts/lazyload.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/tools/runtime.js"></script>
+
+    
+<script src="/js/build/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/build/libs/Typed.min.js"></script>
+
+  
+<script src="/js/build/plugins/typed.js" type="module"></script>
+
+
+
+
+
+
+    
+<script src="/js/build/libs/minimasonry.min.js"></script>
+
+    
+<script src="/js/build/plugins/masonry.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/libs/anime.min.js"></script>
+
+
+
+
+
+    
+<script src="/js/build/tools/tocToggle.js" type="module" data-swup-reload-script=""></script>
+
+<script src="/js/build/layouts/toc.js" type="module" data-swup-reload-script=""></script>
+
+<script src="/js/build/plugins/tabs.js" type="module" data-swup-reload-script=""></script>
+
+
+
+
+<script src="/js/build/libs/moment-with-locales.min.js" data-swup-reload-script=""></script>
+
+
+<script src="/js/build/layouts/essays.js" type="module" data-swup-reload-script=""></script>
+
+
+
+
+
+	
+</body>
+
+</html>
